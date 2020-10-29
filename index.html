@@ -1,272 +1,429 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-  <meta name="description" content="yanm1ng&#39;s blog">
-  <meta name="keyword" content="hexo-theme, vuejs">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
-    <link rel="shortcut icon" href="/css/images/logo.png">
-  
-  <title>
+  <title>World of Forks</title>
+  <meta name="description" content="A blog of Kevin Tan" />
+  <meta name="keywords" content="blog,stkevintan,IT,Web Front End,Kevin Tan,kevinsfork" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="alternate" href="/atom.xml" title="World of Forks" type="application/atom+xml">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="A blog of Kevin Tan">
+<meta property="og:type" content="website">
+<meta property="og:title" content="World of Forks">
+<meta property="og:url" content="http://keyin.me/index.html">
+<meta property="og:site_name" content="World of Forks">
+<meta property="og:description" content="A blog of Kevin Tan">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Kevin Tan">
+<meta property="article:tag" content="blog">
+<meta property="article:tag" content="stkevintan">
+<meta property="article:tag" content="IT">
+<meta property="article:tag" content="Web Front End">
+<meta property="article:tag" content="Kevin Tan">
+<meta property="article:tag" content="kevinsfork">
+<meta name="twitter:card" content="summary">
     
-      Outside over There
-    
-  </title>
-  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="//cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" rel="stylesheet">
-  <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href='//cdn.bootcss.com/node-waves/0.7.5/waves.min.css' rel='stylesheet'>
   
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/style.css">
 
-  
-    
-<link rel="stylesheet" href="/css/plugins/gitment.css">
-
-  
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
-  
-    
-<script src="/js/qrious.js"></script>
-
-  
-  
-    
-<script src="/js/gitment.js"></script>
-
-  
-  
-  
-    <!-- MathJax support START -->
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-        }
-      });
-    </script>
-
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-      });
-    </script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <!-- MathJax support END -->
-  
-
-
-  
+  <script>
+    function setLoadingBarProgress(num) {
+      document.getElementById('loading-bar').style.width=num+"%";
+    }
+  </script>
 <meta name="generator" content="Hexo 5.2.0"></head>
-<div class="wechat-share">
-  <img src="/css/images/logo.png" />
+
+<body>
+  <div id="loading-bar-wrapper">
+  <div id="loading-bar"></div>
 </div>
 
-  <body>
-    <header class="header fixed-header">
-  <div class="header-container">
-    <a class="home-link" href="/">
-      <div class="logo"></div>
-      <span>Outside over There</span>
-    </a>
-    <ul class="right-list">
+
+  <script>setLoadingBarProgress(20)</script> 
+  <header class="l_header">
+	<div class='wrapper'>
+		<div class="nav-main container container--flex">
+			<a class="logo flat-box" href='/' >
+				World of Forks
+			</a>
+			<div class='menu'>
+				<ul class='h-list'>
+					
+						<li>
+							<a class='flat-box nav-home' href='/'>
+								Home
+							</a>
+						</li>
+					
+						<li>
+							<a class='flat-box nav-archives' href='/archives'>
+								Archives
+							</a>
+						</li>
+					
+						<li>
+							<a class='flat-box nav-gallery' target="_blank" rel="noopener" href='https://photos.google.com/album/AF1QipNoqKYgspQo5O1YhlFXGCQ7p575KBH3Yxf8WHL4?hl=zh-CN'>
+								Gallery
+							</a>
+						</li>
+					
+						<li>
+							<a class='flat-box nav-about' href='/about'>
+								About
+							</a>
+						</li>
+					
+				</ul>
+				<div class='underline'></div>
+			</div>
+			
+				<div class="m_search">
+					<form name="searchform" class="form u-search-form">
+						<input type="text" class="input u-search-input" placeholder="Search" />
+						<span class="icon icon-search"></span>
+					</form>
+				</div>
+			
+			<ul class='switcher h-list'>
+				
+					<li class='s-search'><a href='javascript:void(0)'><span class="icon icon-search flat-box"></span></a></li>
+				
+				<li class='s-menu'><a href='javascript:void(0)'><span class="icon icon-menu flat-box"></span></a></li>
+			</ul>
+		</div>
+		
+		<div class='nav-sub container container--flex'>
+			<a class="logo" class="flat-box" href='javascript:void(0)'>
+				Word of Forks
+			</a>
+
+			<ul class='switcher h-list'>
+				<li class='s-comment'><a href='javascript:void(0)'><span class="icon icon-chat_bubble_outline flat-box"></span></a></li>
+				<li class='s-top'><a href='javascript:void(0)'><span class="icon icon-arrow_upward flat-box"></span></a></li>
+				<li class='s-toc'><a href='javascript:void(0)'><span class="icon icon-format_list_numbered flat-box"></span></a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+<aside class="menu-phone">
+	<nav>
+		
+			<a href="/" class="nav-home nav">
+				Home
+			</a>
+		
+			<a href="/archives" class="nav-archives nav">
+				Archives
+			</a>
+		
+			<a target="_blank" rel="noopener" href="https://photos.google.com/album/AF1QipNoqKYgspQo5O1YhlFXGCQ7p575KBH3Yxf8WHL4?hl=zh-CN" class="nav-gallery nav">
+				Gallery
+			</a>
+		
+			<a href="/about" class="nav-about nav">
+				About
+			</a>
+		
+	</nav>
+</aside>
+
+    <script>setLoadingBarProgress(40);</script>
+  <div class="l_body">
+    <div class='container clearfix'>
+      <div class='l_main'>
+        
+<section class="post-list">
+	
+    <div class='post-wrapper'>
+      <article class="post reveal">
+  <section class="meta">
+    
+    <h2 class="title">
+      <a href="/2020/10/18/essay-2020-10-18/">
+        隨筆#1
+      </a>
+    </h2>
+    
+    <time>
+      10月 18, 2020
+    </time>
+		
+  </section>
+  <section class="article typo">
+	  <h2 id="0"><a href="#0" class="headerlink" title="0"></a>0</h2><blockquote>
+<p>檢驗一流智力的標準，就是看你能不能在頭腦中同時存在兩種相反的想法，還維持正常行事的能力。<br>——菲茨杰拉德《崩溃》</p>
+</blockquote>
+<h1 id="1、Good-Enough"><a href="#1、Good-Enough" class="headerlink" title="1、Good Enough"></a>1、Good Enough</h1><p>去看了極少劇院上映的香港獨立電影《幻愛》。</p>
+<p>受過心理諮商訓練的學妹很難欣賞這個作品，<br>因為一直縈繞在她心頭的是「這是違反規定的」。<br>也就是片中教授一直反覆提醒女主角的行規。</p>
+<p>「聽妳說了這麼多年的『規定』，」我大概真的開始好奇了：「那究竟是什麼？我相信一定有它的存在與道理，但妳能不能幾句話告訴我，那是什麼？」</p>
+<p>暫時還沒有得到回答，倉促之間我說：「我覺得所受的訓練，和典故，是為了讓我們更深的體驗世界。」</p>
+<p>想想這或許也是一種選擇，<br>如果知識、訓練、典故，沒有幫助我更深地認識一點什麼，<br>現在的我，有放棄繼續閱讀一本書的智慧，有拒絕活在一個規範體系的力量。</p>
+<p>如果說出的話已經夠好了，你有沒有不引經不據典的勇氣？</p>
+<p>Good enough.</p>
+<p>「我不介意……你呢？」</p>
+<h1 id="2、米非波設雙腿是瘸的"><a href="#2、米非波設雙腿是瘸的" class="headerlink" title="2、米非波設雙腿是瘸的"></a>2、米非波設雙腿是瘸的</h1><p>主日牧師講起大衛與米非波設，會後小組分享接續討論。</p>
+<p>僕人洗巴輕看自己曾經的少主米非波設，稱他「瘸腿的」。<br>大衛則看重「恩待（Hesed）掃羅後代的、與約拿單在神前所立的約」。</p>
+<p>「技術上來說，」我不知道這麼說是否適當：「當我們看重與神的約定，其他難以達到的事，有時候就自然達到了——例如，『耶和華看的是心』。」</p>
+<p>所以大衛能用愛擺設宴席，遮蓋米非波設瘸腿的軟弱。<br>我們怎樣能夠得到幫助呢？</p>
+<p>作為基督籲表的大衛王，叮囑軟弱的米非波設：「你要常常與我一同座席。」</p>
+<h1 id="3、蒔花"><a href="#3、蒔花" class="headerlink" title="3、蒔花"></a>3、蒔花</h1><p>大概十年沒走進板橋花市，幸運的發現，主日聚會的地方就在花市旁。</p>
+<p>對於種花，和十年前一樣愚昧的我就到處走走看看，<br>突然看到一間攤販老闆的姓名與聯絡電話，因為名字和一位朋友相同，<br>我就用手機拍了下來。</p>
+<p>結果隱藏在人群之中的老闆就來與我搭話，知道我正在找月季。</p>
+<p>「現在這個時節，月季要先預訂。」</p>
+<p>聊了好一陣子，那我就買這個新手超好入門的菊花吧。<br>黃色還是白色，我一個人實在很有選擇障礙。</p>
+<p>老闆提供了不科學的建議：「黃色代表富貴，白色…」</p>
+<p>「就白色。」</p>
+<p>生而為人，我不理性。</p>
+<h1 id="4、最小化後悔"><a href="#4、最小化後悔" class="headerlink" title="4、最小化後悔"></a>4、最小化後悔</h1><p>正在讀萬維綱的《你有你的計畫，世界另有計畫》。</p>
+<p>在〈決策理性批判〉裡，萬維綱提供了一個建議：「這肯定不是科學的建議——把決策標準確定為，將人生的『後悔』最小化。」</p>
+<p>「既然人生根本就沒對錯，那何不過得更有意思一點兒？也許『老了不後悔』就是一種不錯的生活方式。嘗試一些新東西，稍微追逐一下理想的自我，科學的結論是這麼做不一定能讓幸福最大化——但是我敢以科學的名義打賭，你將來一定不後悔。」</p>
+<p>高中生問可不可以再寫很「ㄎㄧㄤ」的信給他？</p>
+<p>我敢以我爺爺的名字打賭，你是女生我就寫哈哈。</p>
+
+
+    
+    
+    
+	  <div class="full-width auto-padding tags">
       
-        <li class="list-item">
-          
-            <a href="/" class="item-link active">Home</a>
-          
-        </li>
+        <a href="/tags/ESSAY/">ESSAY</a>
       
-        <li class="list-item">
-          
-            <a href="/tags/" class="item-link">Tags</a>
-          
-        </li>
-      
-        <li class="list-item">
-          
-            <a href="/archives/" class="item-link">Archives</a>
-          
-        </li>
-      
-        <li class="list-item">
-          
-            <a href="/project/" class="item-link">Projects</a>
-          
-        </li>
-      
-        <li class="list-item">
-          
-            <a href="/about/" class="item-link">About</a>
-          
-        </li>
-      
-    </ul>
-    <div class="menu">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
+	  </div>
+    
+  </section>
+</article>
     </div>
-    <div class="menu-mask">
-      <ul class="menu-list">
+  
+    <div class='post-wrapper'>
+      <article class="post reveal">
+  <section class="meta">
+    
+    <h2 class="title">
+      <a href="/2020/10/11/Article/">
+        《風起》與勃朗寧夫妻
+      </a>
+    </h2>
+    
+    <time>
+      10月 11, 2020
+    </time>
+		
+  </section>
+  <section class="article typo">
+	  <h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p><img src="https://scontent.ftpe12-1.fna.fbcdn.net/v/t1.0-9/p720x720/121092384_2692845020981270_4701909622524260567_o.jpg?_nc_cat=108&_nc_sid=730e14&_nc_ohc=PjPciGvgzo4AX_NQ_54&_nc_ht=scontent.ftpe12-1.fna&tp=6&oh=61d5f32b083c461961749da94215bcb4&oe=5FA8E482" alt="Alt text"><br>《風起》完全是勃朗寧的詩，胸像與立像。<br>只是攔阻在兩人之間的，<br>不是禮教，而是更深刻的，<br>對於死亡的恐懼與夢想的重量。<br>菜穗子的每一個決定，<br>她為了生存下去而遠去高山療養、<br>她為了思念而來到都市、<br>最後，自己一個人離開，<br>那是新婦的胸像。<br>這些看似有些矛盾的情節裡面，<br>卻是同一個主題——<br>而那個主題，勃朗寧先生脫不去宗教、道德的束縛，<br>反而是勃朗寧夫人的一句詩：</p>
+<blockquote>
+<p>只是為了愛才愛我吧。</p>
+</blockquote>
+<h1 id="立像與胸像"><a href="#立像與胸像" class="headerlink" title="立像與胸像"></a>立像與胸像</h1><p>廚川白村在《出了象牙之塔》裡，提到了一首英國詩人勃朗寧（Robert Browning）的詩〈胸像與立像〉，內容大意是：</p>
+<blockquote>
+<p>裴迪南大公的下屬即將迎娶妻子，在婚禮當天的下午，大公自廣場經過時，看見正巧在窗堂俯視的新婦，兩人一眼鍾情，彷彿，此時兩人才算真正開始活著。是夜舉行晚會時，大公依據宮廷禮儀吻了新婦，而丈夫卻好像聽見兩人正無聲地訴說著什麼。當晚，丈夫便要求妻子不得再出家門。</p>
+<p>新婦心想，她必須和大公私奔，但今晚卻不可——父親仍在此參加婚宴；而回到家裡的大公則想，必定要用盡手段奪取新婦，但明天卻不可——明天，還得陪國外的使節參訪…。時間就在一天又一天，一個月，一年間過去了。直到某日，新婦發現了自己的幾莖白髮，明白年華已逝。便命工匠將自己美好的容顏刻成胸像，放在她每日翹首盼望的窗台；大公也知青春不再，也找來匠人，將自己騎馬的英姿製像立於廣場。</p>
+<p>遙遙相望。</p>
+</blockquote>
+<h1 id="勃朗寧夫婦"><a href="#勃朗寧夫婦" class="headerlink" title="勃朗寧夫婦"></a>勃朗寧夫婦</h1><p>關於勃朗寧夫婦的愛情故事，<a target="_blank" rel="noopener" href="https://book.douban.com/review/6358235/">這裏</a>有十分詳盡的介紹，這裡就引用勃朗寧夫人的詩句：</p>
+<blockquote>
+<p>如果你一心要愛我，別為了什麼，<br>只是為了愛才愛我吧。別這麼講：<br>「我愛她，為了她的一笑，她的模樣，<br>她柔和的細語；為了她這感觸，<br>這想法，正合我心意，那天裏，的確<br>給我帶來滿懷的喜悅和舒暢。」<br>親愛的，這些好處都不能持常，<br>會因你而變；為之而唱出的愛曲<br>也將為之而消失。也別愛我因為你<br>又憐又惜地給我拭乾了淚腮，<br>可憐蟲會忘了哭泣，受慣了你<br>溫柔的安慰——卻因此失了你恩愛。<br>愛我，請只是為了那愛的意念，<br>那你就能長久地愛，愛我如深海。</p>
+<p>– 葡萄牙女子贈十四行詩之十四</p>
+</blockquote>
+<h1 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h1><p>對我來說，不可免地會將「崛越二郎與里見菜穗子」、「大公與新婦」及勃朗寧夫婦三段故事放在一起，它們都面臨著各自的困境，也有各自的選擇…這樣說來，或許和每一段感情都是一樣的吧。阻止了妹妹崛越加代追回菜穗子，黑川夫人努力說著：</p>
+<blockquote>
+<p>她想讓最愛的人，只看到最美的一面。</p>
+</blockquote>
+<p>我還是會想起，新婦發現的幾莖白髮…她們都是像風一樣美麗的女子吧。</p>
+
+
+    
+    
+    
+	  <div class="full-width auto-padding tags">
+      
+        <a href="/tags/POETRY/">POETRY</a>
+      
+	  </div>
+    
+  </section>
+</article>
+    </div>
+  
+    <div class='post-wrapper'>
+      <article class="post reveal">
+  <section class="meta">
+    
+    <h2 class="title">
+      <a href="/2020/10/11/hello-world/">
+        Hello World
+      </a>
+    </h2>
+    
+    <time>
+      10月 11, 2020
+    </time>
+		
+  </section>
+  <section class="article typo">
+	  <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+
+    
+    
+    
+  </section>
+</article>
+    </div>
+  
+</section>
+
+
+      </div>
+      <aside class='l_side'>
         
-          <li class="menu-item">
-            
-              <a href="/" class="menu-link mobile-active">Home</a>
-            
-          </li>
-        
-          <li class="menu-item">
-            
-              <a href="/tags/" class="menu-link">Tags</a>
-            
-          </li>
-        
-          <li class="menu-item">
-            
-              <a href="/archives/" class="menu-link">Archives</a>
-            
-          </li>
-        
-          <li class="menu-item">
-            
-              <a href="/project/" class="menu-link">Projects</a>
-            
-          </li>
-        
-          <li class="menu-item">
-            
-              <a href="/about/" class="menu-link">About</a>
-            
-          </li>
-        
-      </ul>
+  <section class='m_widget about'>
+
+<img class='avatar waves-image' src='/images/avatar.jpg' />
+
+<div class='header'>Kevin Tan</div>
+<div class='content'>
+<div class='desc'>Tempora mutantur, nos et mutamur in illis ...</div>
+</div>
+</section>
+
+  <section class='m_widget links'>
+<div class='header'>Links</div>
+<div class='content'>
+    <ul class="entry">
+    
+        <li><a class="flat-box" target="_blank" href="https://ccoooss.com">
+            <div class='name'>ClassicOldSong</div>
+        </a></li>
+    
+        <li><a class="flat-box" target="_blank" href="https://frantic1048.logdown.com/">
+            <div class='name'>Frantic1048</div>
+        </a></li>
+    
+        <li><a class="flat-box" target="_blank" href="https://hclmaster.github.io/">
+            <div class='name'>Hclmaster</div>
+        </a></li>
+    
+        <li><a class="flat-box" target="_blank" href="https://whst.github.io/">
+            <div class='name'>WANG Hsü-Tung</div>
+        </a></li>
+    
+    </ul>
+</div>
+</section>
+
+  <section class='m_widget categories'>
+<div class='header'>Categories</div>
+<div class='content'>
+    
+</div>
+</section>
+
+  
+<div class="m_widget tagcloud">
+    <div class="header">Tags</div>
+    <div class='content'>
+        <a href="/tags/ESSAY/" style="font-size: 14px; color: #808080">ESSAY</a> <a href="/tags/POETRY/" style="font-size: 14px; color: #808080">POETRY</a>
+    </div>
+</div>
+
+
+
+      </aside>
+      <script>setLoadingBarProgress(60);</script>
     </div>
   </div>
-</header>
+  <footer id="footer" class="clearfix">
 
-    <main class="app-body">
-  
-    <article class="article-card">
-      <h2 class="article-head">
-        <a href="/2020/10/18/essay-2020-10-18/">隨筆#1</a>
-      </h2>
-      <p class="article-date">October 18, 2020</p>
+	<div class="social-wrapper">
+  	
       
-        
-  <a href="/tags#ESSAY" >
-    <span class="tag-code">ESSAY</span>
-  </a>
-
+        <a href="https://github.com/stkevintan" class="social github"
+          target="_blank" rel="external">
+          <span class="icon icon-github"></span>
+        </a>
       
-      <div class="article-summary">
-        
-          0
-檢驗一流智力的標準，就是看你能不能在頭腦中同時存在兩種相反的想法，還維持正常行事的能力。——菲茨杰拉德《崩溃》
-
-1、Good Enough去看了極少劇院上映的香港獨立電影《幻愛》。
-受過心理諮商訓練的學妹很難欣賞這個作品，因為一直縈繞在她心頭的是「這是違反規定的」。也就是片中教授一直反 ...
-        
-      </div>
-      <a class="more" href="/2020/10/18/essay-2020-10-18/">Read more</a>
-    </article>
-  
-    <article class="article-card">
-      <h2 class="article-head">
-        <a href="/2020/10/11/Article/">《風起》與勃朗寧夫妻</a>
-      </h2>
-      <p class="article-date">October 11, 2020</p>
+        <a href="https://twitter.com/kevinsfork" class="social twitter"
+          target="_blank" rel="external">
+          <span class="icon icon-twitter"></span>
+        </a>
       
-        
-  <a href="/tags#POETRY" >
-    <span class="tag-code">POETRY</span>
-  </a>
-
+        <a href="/atom.xml" class="social rss"
+          target="_blank" rel="external">
+          <span class="icon icon-rss"></span>
+        </a>
       
-      <div class="article-summary">
-        
-          Abstract《風起》完全是勃朗寧的詩，胸像與立像。只是攔阻在兩人之間的，不是禮教，而是更深刻的，對於死亡的恐懼與夢想的重量。菜穗子的每一個決定，她為了生存下去而遠去高山療養、她為了思念而來到都市、最後，自己一個人離開，那是新婦的胸像。這些看似有些矛盾的情節裡面，卻是同一個主題——而那個主 ...
-        
-      </div>
-      <a class="more" href="/2020/10/11/Article/">Read more</a>
-    </article>
+    
+  </div>
   
-    <article class="article-card">
-      <h2 class="article-head">
-        <a href="/2020/10/11/hello-world/">Hello World</a>
-      </h2>
-      <p class="article-date">October 11, 2020</p>
-      
-      <div class="article-summary">
-        
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer ...
-        
-      </div>
-      <a class="more" href="/2020/10/11/hello-world/">Read more</a>
-    </article>
+  <div>Theme <a target="_blank" rel="noopener" href='https://github.com/stkevintan/hexo-theme-material-flow' class="codename">MaterialFlow</a> designed by <a href="http://keyin.me/" target="_blank">Kevin Tan</a>.</div>
   
-
-  
-</main>
-
-
-    <div class="scroll-top">
-  <span class="arrow-icon"></span>
-</div>
-    <footer class="app-footer">
-  <p class="copyright">
-    &copy; 2020 | Proudly powered by <a href="https://hexo.io" target="_blank">Hexo</a>
-    <br>
-    Theme by <a target="_blank" rel="noopener" href="https://github.com/yanm1ng">yanm1ng</a>
-  </p>
 </footer>
 
+
+  <script>setLoadingBarProgress(80);</script>
+  
 <script>
-  function async(u, c) {
-    var d = document, t = 'script',
-      o = d.createElement(t),
-      s = d.getElementsByTagName(t)[0];
-    o.src = u;
-    if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-    s.parentNode.insertBefore(o, s);
-  }
+  var disqus_shortname = 'kevinhome';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
 </script>
+
+
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src='//cdn.bootcss.com/node-waves/0.7.5/waves.min.js'></script>
+<script src="//cdn.bootcss.com/scrollReveal.js/3.3.2/scrollreveal.min.js"></script>
+
+<script src="/js/jquery.fitvids.js"></script>
+
 <script>
-  async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
-    FastClick.attach(document.body);
-  })
+	var GOOGLE_CUSTOM_SEARCH_API_KEY = "";
+	var GOOGLE_CUSTOM_SEARCH_ENGINE_ID = "";
+	var ALGOLIA_API_KEY = "";
+	var ALGOLIA_APP_ID = "";
+	var ALGOLIA_INDEX_NAME = "";
+  var AZURE_SERVICE_NAME = "";
+  var AZURE_INDEX_NAME = "";
+  var AZURE_QUERY_KEY = "";
+  var BAIDU_API_ID = "";
+  var SEARCH_SERVICE = "hexo";
+  var ROOT = "/"||"/";
+  if(!ROOT.endsWith('/'))ROOT += '/';
 </script>
 
-<script>
-  var hasLine = 'true';
-  async("//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js", function(){
-    $('figure pre').each(function(i, block) {
-      var figure = $(this).parents('figure');
-      if (hasLine === 'false') {
-        figure.find('.gutter').hide();
-      }
-      var lang = figure.attr('class').split(' ')[1] || 'code';
-      var codeHtml = $(this).html();
-      var codeTag = document.createElement('code');
-      codeTag.className = lang;
-      codeTag.innerHTML = codeHtml;
-      $(this).attr('class', '').empty().html(codeTag);
-      figure.attr('data-lang', lang.toUpperCase());
-      hljs.highlightBlock(block);
-    });
-  })
-</script>
-<!-- Baidu Tongji -->
+<script src="/js/search.js"></script>
 
 
-<script src="/js/script.js"></script>
+<script src="/js/app.js"></script>
 
-  </body>
+
+
+  <script>setLoadingBarProgress(100);</script>
+</body>
 </html>
