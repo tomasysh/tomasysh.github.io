@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>World of Forks</title>
+  <title>Outside over There</title>
   
-  <subtitle>Kevin&#39;s Home</subtitle>
+  <subtitle>Changeling</subtitle>
   <link href="http://keyin.me/atom.xml" rel="self"/>
   
   <link href="http://keyin.me/"/>
@@ -10,7 +10,7 @@
   <id>http://keyin.me/</id>
   
   <author>
-    <name>Kevin Tan</name>
+    <name>Tomas Huang</name>
     
   </author>
   
